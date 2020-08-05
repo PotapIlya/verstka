@@ -1,0 +1,1 @@
+$(".reviews-slider").slick({slidesToShow:1,slidesToScroll:1,arrows:!0});const navbarCheak=document.querySelector(".navbar-collapse"),nav=document.querySelector(".navbar-toggler"),header=document.querySelector(".header");nav.addEventListener("click",()=>{navbarCheak.classList.contains("show")?header.style.background="transparent":header.style.background="rgba(0,0,0,.8)"});
